@@ -1,0 +1,35 @@
+//electricity bill
+#include<stdio.h>
+int main()
+{
+	int units;
+	float roc,bill;
+	printf("enter no.of units consumed");
+	scanf("%d",&units);
+	if (units<=150)
+	 {
+		bill=units*3;
+		printf("%f is bill",bill);
+	 }
+	 else if (units>=151&&units<=350)
+	 {
+		bill=100+3.75*units;
+		printf("%f is bill\n",bill);
+	 }
+	 else if (units>=351&&units<=450)
+	 {
+		bill=250+4*units;
+		printf("%f is bill\n",bill);
+	 }
+	 else if (units>=451&&units<=600)
+	 {
+	 	bill=300+4.75*units;
+	 	printf("%f is bill\n",bill);
+	 }
+	 else
+	 {
+	 	bill=400+5*units;
+	 	printf("%f is bill",bill);
+	 }
+	 
+}
