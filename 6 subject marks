@@ -1,0 +1,26 @@
+//6 subject marks
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,e,f;
+	float avg;
+	printf("enter a,b,c,d,e,f");
+	scanf("%d%d%d%d%d%d",&a,&b,&c,&d,&e,&f);
+	avg=(a+b+c+d+e+f/6);
+	if (avg>=90)
+	 printf("o grade");
+	else if (avg>=80)
+	 printf("a+ grade");
+    else if (avg>=70)
+     printf("a grade");
+    else if (avg>=60)
+     printf("b+ grade");
+    else if (avg>=50)
+     printf("b grade");
+    else if (avg>=45) 
+     printf(" c grade");
+    else 
+     printf("fail");
+     
+
+ }
