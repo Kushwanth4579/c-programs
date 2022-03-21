@@ -1,0 +1,13 @@
+//prit 0 or not zero based on integern value num
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("enter num");
+	scanf("%d",&num);
+	if(num==0)
+	  printf("num is 0");
+	 else  
+	  printf("not 0");
+	  
+}
