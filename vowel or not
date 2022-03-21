@@ -1,0 +1,15 @@
+//finding vowel or not
+#include<stdio.h>
+int main()
+{
+	char ch;
+	char a,e,i,o,u,A,E,I,O,U;
+	printf("enter the character");
+	scanf("%c",&ch);
+	if (ch=='a','e','i','o','u','A','E','I','O','U')
+	  printf("it is a vowel");
+	else 
+	  printf("it is a consonant");
+	 
+	 
+}
