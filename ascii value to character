@@ -1,0 +1,10 @@
+//ascii value to character
+#include<stdio.h>
+int main ()
+{
+	int a;
+	printf("enter ascii value");
+	scanf("%d",&a);
+	printf("character for ascii value is %c",a);
+	return 0;
+}
