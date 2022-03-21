@@ -1,0 +1,23 @@
+//roots of quadratic equation
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	float d,x1,x2;
+	printf("enter a,b,c");
+	scanf("%d%d%d",&a,&b,&c);
+	d=sqrt(b*b-4*a*c);
+	if (d>0)
+	{
+		x1=(-b+d)/2*a;
+		x2=(-b-d)/2*a;
+		printf("%f%f are roots ",x1,x2);
+	}
+	else if (d=0){
+	    x1=(-b+d)/2*a;
+		x2=(-b-d)/2*a;
+		printf("%f%f are roots",x1,x2);
+		printf("roots are equal");}
+	else 
+	 printf("roots are imaginary");
+	 
