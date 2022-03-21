@@ -1,0 +1,20 @@
+//total bill amount for an item
+#include<stdio.h>
+int main()
+{
+	float a,b,c,d,e;
+	printf("enter items sold");
+	scanf("%f",&a);
+	printf("enter value");
+	scanf("%f",&b);
+	printf("enter discount");
+	scanf("%f",&c);
+	printf("enter tax");
+	scanf("%f",&d);
+	e=a*b;
+	c=e*(c/100);
+	e=e-c;
+	d=e*(d/100);
+	e=e+d;
+	printf("total amount is %f",e);
+}
